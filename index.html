@@ -11,25 +11,58 @@
     <header>
         <h1>The 45's Music School</h1>
     </header>
+
     <nav>
-        <a href="#" class="active">Home</a>
-        <a href="#">Courses</a>
-        <a href="#">Max Courses</a>
-        <a href="#">Our Partners</a>
-        <a href="#">Photo Booth</a>
-        <a href="#">About</a>
-        <a href="#">Contact Us</a>
-        <a href="#">Others</a>
+        <a onclick="navigatePages('homepage')"> Home </a>
+        <a onclick="navigatePages('coursepage')"> Courses </a>
+        <a onclick="navigatePages('maxcoursepage')"> Max Courses </a>
+        <a onclick="navigatePages('partnerpage')"> Our Partners </a>
+        <a onclick="navigatePages('photopage')"> Photo Booth </a>
+        <a onclick="navigatePages('aboutpage')"> About </a>
+        <a onclick="navigatePages('contactpage')"> Contact Us </a>
+        <a onclick="navigatePages('otherpage')"> Others </a>
     </nav>
 
-    <div id >
-        <ol>
-            <li >         </li>
-        </ol>
-    </div>
 
+    <section id="homepage">
+        <h3>About us</h3>
+        <p>Wel come to Music School</p>
+    </section>
 
+    <section id="coursepage">
+         <h3>Courses</h3>
+         <div class="card-container">
+            <div class="card">
+                <img src="images/capatosta1.jpg" alt="coueses one">
+                <div class="card-content">
+                    <h3>Keyboard</h3>
+                    <p>It is dircripyion abot the course</p>
+                    <a href="#" class="btn">Buy now</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/capatosta1.jpg" alt="Image">
+                <div class="card-content">
+                    <h3>Card Title</h3>
+                    <p>Short description about the course.</p>
+                    <a href="#" class="btn">Buy now</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/Destinyweddingstudio01.jpg" alt="Image">
+                <div class="card-content">
+                    <h3>Card Title</h3>
+                    <p>Short description about the course.</p>
+                    <a href="#" class="btn">Buy now</a>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+    
 
     <script src="script.js"></script>
 </body>
 </html>
+
